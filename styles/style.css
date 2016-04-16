@@ -1,0 +1,58 @@
+body {
+	background-color: #FFFFFF;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+header {
+	padding: 40px 18px 18px 18px;
+	text-align: center;
+	/*font-size: 18px;*/
+}
+
+section {
+	display: block;
+	width: 970px;
+	margin: 0 auto;
+}
+
+.problem-box {
+	margin: 25px 20px;
+	padding: 1px 25px 1px 25px;
+	background-color: #E6E6E6;
+}
+
+.problem-box > p {
+	margin-bottom: 23px;
+}
+
+.form-box {
+	padding: 0 0 23px 0;
+}
+
+input[type="text"] {
+	padding: 5px;
+}
+
+input[type="submit"] {
+	padding: 5px;
+}
+
+.result, .alert {
+	display: none;
+	padding-bottom: 2px;
+	font-size: 18px;
+}
+
+.result p, .alert p {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.alert p {
+	display: none;
+}
+
+.highlight {
+	background-color: ;
+}

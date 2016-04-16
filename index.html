@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project Euler Solutions</title>
+	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+<header>
+	<h1>Project Euler Solutions</h1>
+</header>
+<section>
+	<div class="problem-box" id="multiples">
+		<h2>Multiples of 3 and 5</h2>
+		<p>Sum all the natural numbers that are multiples of 3 or 5 below...</p>
+		<div class="form-box">
+			<input id="multi-input" value="1000" type="text">
+			<input class="buttons" id="multi-but" value="Submit" type="submit">
+		</div>
+		<div class="result">
+			<p class="multi-res"></p>
+		</div>
+		<div class="alert">
+			<p class="al-number">The number is too big. Please write a smaller number.</p>
+			<p class="al-text">Please write a number.</p>
+		</div>
+	</div>
+	<div class="problem-box" id="fibonacci">
+		<h2>Even Fibonacci Numbers</h2>
+		<p>Find the sum of the even-valued terms of the Fibonacci sequence below...</p>
+		<div class="form-box">
+			<input id="fibo-input" value="4000000" type="text">
+			<input class="buttons" id="fibo-but" value="Submit" type="submit">
+		</div>
+		<div class="result">
+			<p class="fibo-res"></p>
+		</div>
+		<div class="alert">
+			<p class="al-text">Please write a number.</p>
+		</div>
+	</div>
+	<div class="problem-box" id="largest-prime">
+		<h2>Largest Prime Factor</h2>
+		<p>Calculate the largest prime factor of the number...</p>
+		<div class="form-box">
+			<input id="lp-input" value="600851475143" type="text">
+			<input class="buttons" id="lp-but" value="Submit" type="submit">
+		</div>
+		<div class="result">
+			<p class="lp-res"></p>
+		</div>
+		<div class="alert">
+			<p class="al-number">The number is too big. Please write a smaller number.</p>
+			<p class="al-text">Please write a number.</p>
+		</div>
+	</div>
+</section>
+<script src="scripts/jquery-1.12.3.min.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>
