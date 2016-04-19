@@ -1,7 +1,8 @@
 body {
-	background-color: #FFFFFF;
+	background-color: #EDEDED;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
+	color: #262626;
 }
 
 header {
@@ -19,7 +20,7 @@ section {
 .problem-box {
 	margin: 25px 20px;
 	padding: 1px 25px 1px 25px;
-	background-color: #E6E6E6;
+	background-color: #FFFFFF;
 }
 
 .problem-box > p {
