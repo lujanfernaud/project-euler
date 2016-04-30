@@ -1,4 +1,4 @@
-# Project Euler Solutions using Ruby
+# The Odin Project - Project Euler Solutions
 
 Solution of the first three exercises of Project Euler using Ruby.
 
