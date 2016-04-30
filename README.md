@@ -1,3 +1,3 @@
 # Project Euler Solutions
 
-Project Euler solutions with Javascript and Ruby.
+Project Euler solutions using Javascript and Ruby.
